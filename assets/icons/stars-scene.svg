@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" shape-rendering="crispEdges">
+<style>
+  .star { animation-name: twinkle; animation-timing-function: ease-in-out; animation-iteration-count: infinite; animation-direction: alternate; opacity: var(--base-op); }
+  @keyframes twinkle {
+    from { opacity: var(--base-op); }
+    to   { opacity: 0.08; }
+  }
+  .moon { animation: moon-float 2.6s ease-in-out infinite alternate; }
+  @keyframes moon-float {
+    from { translate: 0 0; }
+    to   { translate: -6px 20px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .star, .moon { animation: none; }
+  }
+</style>
+<g class="moon" style="transform: translate(700px,30px);">
+<rect x="16" y="0" width="32" height="8" fill="#fdf6ec"/>
+<rect x="8" y="8" width="48" height="8" fill="#fdf6ec"/>
+<rect x="0" y="16" width="64" height="8" fill="#fdf6ec"/>
+<rect x="0" y="24" width="64" height="8" fill="#fdf6ec"/>
+<rect x="0" y="32" width="64" height="8" fill="#fdf6ec"/>
+<rect x="0" y="40" width="64" height="8" fill="#fdf6ec"/>
+<rect x="8" y="48" width="48" height="8" fill="#fdf6ec"/>
+<rect x="16" y="56" width="32" height="8" fill="#fdf6ec"/>
+</g>
+<rect class="star" x="253" y="161" width="3" height="3" fill="#ffffff" style="animation-duration:1.2s; animation-delay:-0.8s; --base-op:1.0;"/>
+<rect class="star" x="604" y="26" width="3" height="3" fill="#ffffff" style="animation-duration:1.7s; animation-delay:-1.1s; --base-op:1.0;"/>
+<rect class="star" x="249" y="59" width="5" height="5" fill="#ffffff" style="animation-duration:1.4s; animation-delay:-0.9s; --base-op:0.8;"/>
+<rect class="star" x="664" y="48" width="3" height="3" fill="#ffffff" style="animation-duration:1.5s; animation-delay:-0.3s; --base-op:1.0;"/>
+<rect class="star" x="409" y="199" width="3" height="3" fill="#ffffff" style="animation-duration:1.5s; animation-delay:-1.9s; --base-op:1.0;"/>
+<rect class="star" x="53" y="87" width="3" height="3" fill="#ffffff" style="animation-duration:1.6s; animation-delay:-1.5s; --base-op:1.0;"/>
+<rect class="star" x="746" y="109" width="5" height="5" fill="#ffffff" style="animation-duration:1.3s; animation-delay:-0.4s; --base-op:0.8;"/>
+<rect class="star" x="147" y="103" width="3" height="3" fill="#ffffff" style="animation-duration:0.9s; animation-delay:-1.0s; --base-op:0.8;"/>
+<rect class="star" x="698" y="121" width="4" height="4" fill="#ffffff" style="animation-duration:1.3s; animation-delay:-0.3s; --base-op:1.0;"/>
+<rect class="star" x="369" y="146" width="5" height="5" fill="#ffffff" style="animation-duration:1.4s; animation-delay:-0.2s; --base-op:1.0;"/>
+<rect class="star" x="39" y="81" width="3" height="3" fill="#ffffff" style="animation-duration:1.5s; animation-delay:-1.3s; --base-op:1.0;"/>
+<rect class="star" x="595" y="155" width="3" height="3" fill="#ffffff" style="animation-duration:1.5s; animation-delay:-1.6s; --base-op:1.0;"/>
+<rect class="star" x="283" y="82" width="3" height="3" fill="#ffffff" style="animation-duration:1.0s; animation-delay:-0.3s; --base-op:0.8;"/>
+<rect class="star" x="100" y="98" width="3" height="3" fill="#ffffff" style="animation-duration:1.3s; animation-delay:-1.7s; --base-op:0.8;"/>
+<rect class="star" x="447" y="206" width="5" height="5" fill="#ffffff" style="animation-duration:1.7s; animation-delay:-1.9s; --base-op:1.0;"/>
+<rect class="star" x="789" y="21" width="5" height="5" fill="#ffffff" style="animation-duration:1.5s; animation-delay:-1.3s; --base-op:0.8;"/>
+<rect class="star" x="527" y="70" width="3" height="3" fill="#ffffff" style="animation-duration:1.2s; animation-delay:-1.8s; --base-op:1.0;"/>
+<rect class="star" x="558" y="18" width="3" height="3" fill="#ffffff" style="animation-duration:1.8s; animation-delay:-1.4s; --base-op:0.8;"/>
+<rect class="star" x="169" y="186" width="3" height="3" fill="#ffffff" style="animation-duration:1.8s; animation-delay:-1.3s; --base-op:0.8;"/>
+<rect class="star" x="151" y="106" width="5" height="5" fill="#ffffff" style="animation-duration:1.3s; animation-delay:-1.0s; --base-op:1.0;"/>
+<rect class="star" x="619" y="184" width="3" height="3" fill="#ffffff" style="animation-duration:1.5s; animation-delay:-0.1s; --base-op:1.0;"/>
+<rect class="star" x="287" y="120" width="3" height="3" fill="#ffffff" style="animation-duration:1.7s; animation-delay:-1.1s; --base-op:0.8;"/>
+<rect class="star" x="543" y="87" width="4" height="4" fill="#ffffff" style="animation-duration:0.9s; animation-delay:-1.2s; --base-op:1.0;"/>
+<rect class="star" x="332" y="15" width="5" height="5" fill="#ffffff" style="animation-duration:1.5s; animation-delay:-0.7s; --base-op:0.6;"/>
+<rect class="star" x="658" y="170" width="4" height="4" fill="#ffffff" style="animation-duration:1.3s; animation-delay:-0.6s; --base-op:0.8;"/>
+<rect class="star" x="633" y="190" width="4" height="4" fill="#ffffff" style="animation-duration:1.6s; animation-delay:-2.0s; --base-op:0.6;"/>
+<rect class="star" x="702" y="15" width="4" height="4" fill="#ffffff" style="animation-duration:1.1s; animation-delay:-1.1s; --base-op:1.0;"/>
+<rect class="star" x="625" y="91" width="3" height="3" fill="#ffffff" style="animation-duration:1.2s; animation-delay:-1.4s; --base-op:0.8;"/>
+<rect class="star" x="874" y="162" width="4" height="4" fill="#ffffff" style="animation-duration:1.2s; animation-delay:-1.2s; --base-op:0.6;"/>
+<rect class="star" x="592" y="185" width="3" height="3" fill="#ffffff" style="animation-duration:1.2s; animation-delay:-1.6s; --base-op:0.8;"/>
+<rect class="star" x="254" y="93" width="3" height="3" fill="#ffffff" style="animation-duration:1.5s; animation-delay:-0.7s; --base-op:0.6;"/>
+<rect class="star" x="114" y="163" width="4" height="4" fill="#ffffff" style="animation-duration:1.8s; animation-delay:-0.7s; --base-op:0.6;"/>
+<rect class="star" x="458" y="217" width="3" height="3" fill="#ffffff" style="animation-duration:1.0s; animation-delay:-0.5s; --base-op:0.6;"/>
+<rect class="star" x="592" y="125" width="4" height="4" fill="#ffffff" style="animation-duration:1.1s; animation-delay:-1.8s; --base-op:1.0;"/>
+<rect class="star" x="205" y="90" width="3" height="3" fill="#ffffff" style="animation-duration:1.7s; animation-delay:-1.3s; --base-op:1.0;"/>
+<rect class="star" x="97" y="216" width="4" height="4" fill="#ffffff" style="animation-duration:1.4s; animation-delay:-1.2s; --base-op:1.0;"/>
+<rect class="star" x="822" y="79" width="5" height="5" fill="#ffffff" style="animation-duration:1.2s; animation-delay:-1.2s; --base-op:0.8;"/>
+<rect class="star" x="591" y="114" width="3" height="3" fill="#ffffff" style="animation-duration:1.7s; animation-delay:-1.7s; --base-op:0.6;"/>
+</svg>
